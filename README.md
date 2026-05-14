@@ -1,0 +1,1 @@
+# EVEonline-Official-News-Transltor-Tool
