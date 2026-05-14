@@ -49,7 +49,7 @@ class LLMTranslator:
 
         response = requests.post(self.url, headers=self.headers, json=data)
         return response.json()["choices"][0]["message"]["content"]
-translator = LLMTranslator(api_key="sk-508065e0d2714bebb0a7ea132d4081fb")
+translator = LLMTranslator(api_key="")
 text = '''
 
 '''
